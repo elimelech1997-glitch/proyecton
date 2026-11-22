@@ -1,0 +1,80 @@
+<!--================== CSS ==================== -->
+
+<style>
+    h2 {
+        text-align: center;
+        /* Center the heading */
+    }
+
+    div {
+        border: solid;
+        /* Add border around each div */
+        padding: 10px;
+        /* Add space inside the div */
+        width: 31%;
+        /* Set div width */
+        display: inline-block;
+        /* Display divs next to each other */
+        vertical-align: top;
+        /* Align divs to the top */
+    }
+
+    img {
+        width: 30%;
+        /* Make image fill the div width */
+        height: 500px;
+        /* Set fixed image height */
+    }
+
+    button {
+        cursor: pointer;
+        /* Show pointer when hovering over button */
+    }
+</style>
+
+
+<!-- ==================== HTML ==================== -->
+<h1>melon</h1>
+<p>sweet round</p>
+
+
+
+
+<script>
+    function addToCart() {
+        document.getElementById("message").textContent = "Product added to cart";
+    }
+</script>
+<br\>
+    <br\>
+
+        <style>
+            img {
+                width: 400px;
+                height: 300px;
+            }
+        </style>
+        <img id="mainImage"
+            src="https://upload.wikimedia.org/wikipedia/commons/2/28/Lebensmittel-Galiamelone1-Asio.JPG?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=original">
+        <br><br>
+        <button onclick="showPicture1()">Picture 1</button>
+        <button onclick="showPicture2()">Picture 2</button>
+        <button onclick="showPicture3()">Picture 3</button>
+
+
+
+
+
+        <script>
+
+            function showPicture1() {
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/2/28/Lebensmittel-Galiamelone1-Asio.JPG?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=original";
+            }
+            function showPicture2() {
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/f/f5/Honeydew.jpg?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled";
+            }
+            function showPicture3() {
+
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Canteloupe_and_cross_section.jpg?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled";
+            }
+        </script>

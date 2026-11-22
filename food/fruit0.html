@@ -1,0 +1,79 @@
+<!--================== CSS ==================== -->
+
+<style>
+    h2 {
+        text-align: center;
+        /* Center the heading */
+    }
+
+    div {
+        border: solid;
+        /* Add border around each div */
+        padding: 10px;
+        /* Add space inside the div */
+        width: 31%;
+        /* Set div width */
+        display: inline-block;
+        /* Display divs next to each other */
+        vertical-align: top;
+        /* Align divs to the top */
+    }
+
+    img {
+        width: 30%;
+        /* Make image fill the div width */
+        height: 500px;
+        /* Set fixed image height */
+    }
+
+    button {
+        cursor: pointer;
+        /* Show pointer when hovering over button */
+    }
+</style>
+
+
+<!-- ==================== HTML ==================== -->
+<h1>apple</h1>
+<p>red round</p>
+
+
+
+
+
+<script>
+    function addToCart() {
+        document.getElementById("message").textContent = "Product added to cart";
+    }
+</script>
+<br\>
+    <br\>
+
+        <style>
+            img {
+                width: 400px;
+                height: 300px;
+            }
+        </style>
+        <img id="mainImage" src="https://mivchar-hapri.co.il/wp-content/uploads/2023/10/Resize-135.jpg">
+        <br><br>
+        <button onclick="showPicture1()">Picture 1</button>
+        <button onclick="showPicture2()">Picture 2</button>
+        <button onclick="showPicture3()">Picture 3</button>
+
+
+
+
+        <script>
+
+            function showPicture1() {
+                document.getElementById("mainImage").src = "https://mivchar-hapri.co.il/wp-content/uploads/2023/10/Resize-135.jpg";
+            }
+            function showPicture2() {
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lobo_%28apple%29_%28cropped%29.jpg/960px-Lobo_%28apple%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail";
+            }
+            function showPicture3() {
+
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/9/92/95apple.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled";
+            }
+        </script>

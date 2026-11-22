@@ -1,0 +1,79 @@
+<!--================== CSS ==================== -->
+
+<style>
+    h2 {
+        text-align: center;
+        /* Center the heading */
+    }
+
+    div {
+        border: solid;
+        /* Add border around each div */
+        padding: 10px;
+        /* Add space inside the div */
+        width: 31%;
+        /* Set div width */
+        display: inline-block;
+        /* Display divs next to each other */
+        vertical-align: top;
+        /* Align divs to the top */
+    }
+
+    img {
+        width: 30%;
+        /* Make image fill the div width */
+        height: 500px;
+        /* Set fixed image height */
+    }
+
+    button {
+        cursor: pointer;
+        /* Show pointer when hovering over button */
+    }
+</style>
+
+
+<!-- ==================== HTML ==================== -->
+<h1>banana</h1>
+<p>yellow curved</p>
+
+
+
+<script>
+    function addToCart() {
+        document.getElementById("message").textContent = "Product added to cart";
+    }
+</script>
+<br\>
+    <br\>
+
+        <style>
+            img {
+                width: 400px;
+                height: 300px;
+            }
+        </style>
+        <img id="mainImage"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/%E0%B4%B5%E0%B4%BE%E0%B4%B4%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%B2.jpg/960px-%E0%B4%B5%E0%B4%BE%E0%B4%B4%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%B2.jpg?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail">
+        <br><br>
+        <button onclick="showPicture1()">Picture 1</button>
+        <button onclick="showPicture2()">Picture 2</button>
+        <button onclick="showPicture3()">Picture 3</button>
+
+
+
+
+
+        <script>
+
+            function showPicture1() {
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/%E0%B4%B5%E0%B4%BE%E0%B4%B4%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%B2.jpg/960px-%E0%B4%B5%E0%B4%BE%E0%B4%B4%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%B2.jpg?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail";
+            }
+            function showPicture2() {
+                document.getElementById("mainImage").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Banane-A-02.jpg/500px-Banane-A-02.jpg?utm_source=he.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail";
+            }
+            function showPicture3() {
+
+                document.getElementById("mainImage").src = "https://images-il-cdn.rexail.com/images/products/d2034716aaf7f2d7289dc8cb2d1f0bbc.jpg";
+            }
+        </script>
